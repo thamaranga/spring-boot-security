@@ -1,5 +1,8 @@
-package com.hasitha.springbootsecurity;
+package com.hasitha.springbootsecurity.service;
 
+import com.hasitha.springbootsecurity.model.User;
+import com.hasitha.springbootsecurity.model.UserDetailsImpl;
+import com.hasitha.springbootsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

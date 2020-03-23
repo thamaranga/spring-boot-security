@@ -1,4 +1,4 @@
-package com.hasitha.springbootsecurity;
+package com.hasitha.springbootsecurity.model;
 
 import javax.persistence.*;
 import java.util.ArrayList;

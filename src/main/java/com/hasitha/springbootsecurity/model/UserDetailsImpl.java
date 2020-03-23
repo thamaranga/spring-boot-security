@@ -1,5 +1,7 @@
-package com.hasitha.springbootsecurity;
+package com.hasitha.springbootsecurity.model;
 
+import com.hasitha.springbootsecurity.model.Role;
+import com.hasitha.springbootsecurity.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,6 +1,4 @@
-package com.hasitha.springbootsecurity;
-
-import org.hibernate.annotations.GeneratorType;
+package com.hasitha.springbootsecurity.model;
 
 import javax.persistence.*;
 import java.util.ArrayList;

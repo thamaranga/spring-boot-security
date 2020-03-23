@@ -1,5 +1,9 @@
-package com.hasitha.springbootsecurity;
+package com.hasitha.springbootsecurity.resource;
 
+import com.hasitha.springbootsecurity.model.Role;
+import com.hasitha.springbootsecurity.repository.RoleRepository;
+import com.hasitha.springbootsecurity.model.User;
+import com.hasitha.springbootsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
